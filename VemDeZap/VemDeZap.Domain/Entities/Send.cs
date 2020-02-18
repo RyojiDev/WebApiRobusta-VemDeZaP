@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using VemDeZap.Domain.Entities.Base;
 
 namespace VemDeZap.Domain.Entities
 {
-    public class Send
+    public class Send : EntityBase
     {
-        public Guid Id { get; set; }
+        
         public Campaign Campaign { get; set; }
         public Group Group { get; set; }
         public Contact Contact { get; set; }

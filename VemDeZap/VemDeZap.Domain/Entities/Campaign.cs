@@ -1,12 +1,13 @@
 ﻿using System;
+using VemDeZap.Domain.Entities.Base;
 using System.Collections.Generic;
 using System.Text;
 
 namespace VemDeZap.Domain.Entities
 {
-    public class Campaign
+    public class Campaign : EntityBase
     {
-        public Guid Id { get; set; }
+        
 
         public string Name { get; set; }
 

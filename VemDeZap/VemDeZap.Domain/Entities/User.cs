@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using VemDeZap.Domain.Entities.Base;
 
 namespace VemDeZap.Domain.Entities
 {
-    public class User
+    public class User : EntityBase
     {
-        public Guid Id { get; set; }
+       
 
         public string FirstName { get; set; }
 

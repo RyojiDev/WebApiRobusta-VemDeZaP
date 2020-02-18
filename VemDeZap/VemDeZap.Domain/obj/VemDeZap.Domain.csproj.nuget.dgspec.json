@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {}
+    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
+    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
         "projectName": "VemDeZap.Domain",
-        "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
+        "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
         "packagesPath": "C:\\Users\\Iesu Sama Aishiteiru\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\VemDeZap\\VemDeZap.Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
