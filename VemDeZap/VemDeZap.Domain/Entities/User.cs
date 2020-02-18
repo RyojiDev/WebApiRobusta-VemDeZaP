@@ -1,17 +1,45 @@
-﻿using VemDeZap.Domain.Entities.Base;
+﻿using prmToolkit.NotificationPattern;
+using System;
+using VemDeZap.Domain.Entities.Base;
+using VemDeZap.Domain.Extensions;
 
 namespace VemDeZap.Domain.Entities
 {
     public class User : EntityBase
     {
-       
+        public User(string firstName, string email, string password, string lastName)
+        {
+            FirstName = firstName;
+            Email = email;
+            Password = password;
+            LastName = lastName;
 
-        public string FirstName { get; set; }
+            new AddNotifications<User>(this)
+                .IfNullOrInvalidLength(x => x.FirstName, 3, 150, "O Primeiro nome deve conter entre 3 a 150 caracteres")
+                .IfNullOrInvalidLength(x => x.LastName, 3, 150)
+                .IfNotEmail(x => x.Email, "O Email deve ser preenchido")
+                .IfNullOrInvalidLength(x => x.Password, 3, 32);
 
-        public string LastName { get; set; }
+            if (!string.IsNullOrEmpty(this.Password))
+            {
+                this.Password = Password.ConvertToMD5();
+            }
 
-        public string Email { get; set; }
+            DateRegister = DateTime.Now;
+            Ativo = false;
+                
+        }
 
-        public string Password { get; set; }
+        public string FirstName { get; private set; }
+
+        public string Email { get; private set; }
+
+        public string Password { get; private set; }
+
+        public string LastName { get; private set; }
+
+        public DateTime DateRegister { get; private set; }
+
+        public bool Ativo { get; private set; }
     }
 }
