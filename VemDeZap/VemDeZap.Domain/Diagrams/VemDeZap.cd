@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="VemDeZap.Domain.Entities.Campaign">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Campaign.cs</FileName>
@@ -11,27 +11,29 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="VemDeZap.Domain.Entities.Contact">
-    <Position X="0.5" Y="5" Width="1.5" />
+    <Position X="8.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAIAAAAAA=</HashCode>
       <FileName>Entities\Contact.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="User" />
+      <Property Name="Niche" />
     </ShowAsAssociation>
   </Class>
   <Class Name="VemDeZap.Domain.Entities.Group">
-    <Position X="2.5" Y="3.75" Width="1.5" />
+    <Position X="3.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Group.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="User" />
+      <Property Name="Niche" />
     </ShowAsAssociation>
   </Class>
   <Class Name="VemDeZap.Domain.Entities.Send">
-    <Position X="4.5" Y="3.25" Width="1.5" />
+    <Position X="9.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAACAAAQAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Send.cs</FileName>
@@ -41,18 +43,25 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="VemDeZap.Domain.Entities.User">
-    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Position X="0.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAg=</HashCode>
       <FileName>Entities\User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VemDeZap.Domain.Entities.Base.EntityBase" Collapsed="true">
-    <Position X="5.25" Y="6.5" Width="1.5" />
+    <Position X="6" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Base\EntityBase.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Enum Name="VemDeZap.Domain.Enums.EnumNiche" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Enums\EnumNiche.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

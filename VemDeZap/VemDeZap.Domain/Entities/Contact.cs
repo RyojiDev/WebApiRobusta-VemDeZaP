@@ -1,5 +1,5 @@
 ﻿using VemDeZap.Domain.Entities.Base;
-
+using VemDeZap.Domain.Enums;
 
 namespace VemDeZap.Domain.Entities
 {
@@ -9,6 +9,6 @@ namespace VemDeZap.Domain.Entities
         public User User { get; set; }
         public string Name { get; set; }
         public int Phone { get; set; }
-        public int Niche { get; set; }
+        public EnumNiche Niche { get; set; }
     }
 }
