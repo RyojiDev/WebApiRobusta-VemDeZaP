@@ -1,0 +1,14 @@
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\bin\Debug\netcoreapp2.1\VemDeZap.Api.deps.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\bin\Debug\netcoreapp2.1\VemDeZap.Api.runtimeconfig.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\bin\Debug\netcoreapp2.1\VemDeZap.Api.runtimeconfig.dev.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\bin\Debug\netcoreapp2.1\VemDeZap.Api.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.csprojAssemblyReference.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.RazorAssemblyInfo.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.RazorAssemblyInfo.cs
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.AssemblyInfoInputs.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.AssemblyInfo.cs
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.RazorTargetAssemblyInfo.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\bin\Debug\netcoreapp2.1\VemDeZap.Api.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Api\obj\Debug\netcoreapp2.1\VemDeZap.Api.pdb

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VemDeZap.Domain.Commands.User.AddUser.Notifications
 {
-    class SendEmailActivationForUser : INotificationHandler<AddUserNotification>
+     public class SendEmailActivationForUser : INotificationHandler<AddUserNotification>
     {
         public async Task Handle(AddUserNotification notification, CancellationToken cancellationToken)
         {

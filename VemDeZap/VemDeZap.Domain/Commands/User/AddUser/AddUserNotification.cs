@@ -2,7 +2,7 @@
 
 namespace VemDeZap.Domain.Commands.User.AddUser
 {
-    class AddUserNotification : INotification
+    public class AddUserNotification : INotification
     {
         public Entities.User User { get; set; }
 
