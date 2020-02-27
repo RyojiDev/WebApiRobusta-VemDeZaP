@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Mysql.Data" Version="8.0.18" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.Mysql" Version="2.2.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VemDeZap.Domain\VemDeZap.Domain.csproj" />
+  </ItemGroup>
+</Project>
