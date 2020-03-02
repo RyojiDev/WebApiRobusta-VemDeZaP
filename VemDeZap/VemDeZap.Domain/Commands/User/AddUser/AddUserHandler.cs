@@ -30,7 +30,7 @@ namespace VemDeZap.Domain.Commands.User.AddUser
 
             }
             // Verificar se o usuário já existe
-            if (_repositoryUser.Exist(x => x.Email == request.Email))
+            if (_repositoryUser.Existe(x => x.Email == request.Email))
             {
                 AddNotification("Email", "E-mail já cadastrado no sistema. ");
                 return new Response(this);

@@ -8,7 +8,7 @@ namespace VemDeZap.Infra.Repositories.Map
     {
         public void Configure(EntityTypeBuilder<Group> builder)
         {
-           
+
 
             builder.ToTable("Group");
 

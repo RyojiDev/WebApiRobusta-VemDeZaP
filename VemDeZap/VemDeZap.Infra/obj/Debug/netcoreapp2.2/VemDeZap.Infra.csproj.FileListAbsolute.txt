@@ -1,0 +1,13 @@
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.deps.json
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Domain.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Domain.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.csprojAssemblyReference.cache
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.AssemblyInfoInputs.cache
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.AssemblyInfo.cs
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.csproj.CopyComplete
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.runtimeconfig.json
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.runtimeconfig.dev.json

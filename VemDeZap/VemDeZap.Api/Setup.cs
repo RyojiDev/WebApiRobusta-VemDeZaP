@@ -8,8 +8,10 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Reflection;
 using VemDeZap.Api.Security;
+using VemDeZap.Infra.Repositories;
 
 using VemDeZap.Domain.Commands.User.AddUser;
+using VemDeZap.Domain.interfaces.Repositories;
 
 namespace VemDeZap.Api
 {
@@ -100,7 +102,7 @@ namespace VemDeZap.Api
 
         }
 
-        public static void ConfigureRepositories(this IServiceCollection services)
+        public static void ConfigureMediatR(this IServiceCollection services)
         {
             //services.AddScoped(typeof(IPipelineBehavior<,>), typeof(Pipelines.MeasureTime<,>));
             //services.AddScoped(typeof(IPipelineBehavior<,>), typeof(Pipelines.ValidateCommand<,>));
@@ -109,17 +111,17 @@ namespace VemDeZap.Api
 
         }
 
-        /*
+        
         public static void ConfigureRepositories(this IServiceCollection services)
         {
-            services.AddScoped<VemDeZapContext, VemDeZapContext>();
+            //services.AddScoped<VemDeZapContext, VemDeZapContext>();
 
-            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            //services.AddTransient<IUnitOfWork, UnitOfWork>();
 
-            services.AddTransient<IRepositoryUsuario, RespositoryUsuario>();
-            services.AddTransient<IRepositoryGrupo, RespositoryGrupo>();
+            services.AddTransient<IRepositoryUser, RepositoryUser>();
+            //services.AddTransient<IRepositoryGrupo, RespositoryGrupo>();
 
-        }*/
+        }
 
         public static void ConfigureSwagger(this IServiceCollection services)
         {

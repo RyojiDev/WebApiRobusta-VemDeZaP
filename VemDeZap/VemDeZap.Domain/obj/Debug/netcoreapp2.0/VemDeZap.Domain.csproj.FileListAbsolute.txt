@@ -5,3 +5,11 @@ C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZ
 C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.AssemblyInfo.cs
 C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.dll
 C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\bin\Debug\netcoreapp2.0\VemDeZap.Domain.deps.json
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\bin\Debug\netcoreapp2.0\VemDeZap.Domain.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\bin\Debug\netcoreapp2.0\VemDeZap.Domain.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.AssemblyInfoInputs.cache
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.AssemblyInfo.cs
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Debug\netcoreapp2.0\VemDeZap.Domain.csprojAssemblyReference.cache

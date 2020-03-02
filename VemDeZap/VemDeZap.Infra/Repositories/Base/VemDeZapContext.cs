@@ -11,37 +11,39 @@ namespace VemDeZap.Infra.Repositories.Base
 {
     public partial class VemDeZapContext : DbContext
     {
-        // Criar as tabelas
+        //Criar as tabelas
         public DbSet<User> User { get; set; }
         public DbSet<Campaign> Campaign { get; set; }
         public DbSet<Send> Send { get; set; }
-        public DbSet <Group> Group { get; set; }
+        public DbSet<Group> Group { get; set; }
         public DbSet<Contact> Contact { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("server=localhost;database=VemDeZap;Uid=root;pwd=;");
+                optionsBuilder.UseMySql("Server=localhost;Database=vemdezap;Uid=root;Pwd=;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //Ignorar class
+
+            //ignorar classes
             modelBuilder.Ignore<Notification>();
-            //ModelBuilder Ignorar <Nomes>()
-            //ModelBuilder Ignorar<Email>()
+            //modelBuilder.Ignore<Nome>();
+            //modelBuilder.Ignore<Email>();
 
-            //Aplicar configurações
-
+            //aplicar configurações
             modelBuilder.ApplyConfiguration(new MapUser());
-            modelBuilder.ApplyConfiguration(new MapContact());
             modelBuilder.ApplyConfiguration(new MapGroup());
+            modelBuilder.ApplyConfiguration(new MapContact());
+            //modelBuilder.ApplyConfiguration(new MapCampanha());
+            //modelBuilder.ApplyConfiguration(new MapEnvio());
 
 
-
+            base.OnModelCreating(modelBuilder);
         }
     }
 }
