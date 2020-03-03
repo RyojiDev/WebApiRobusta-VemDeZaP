@@ -22,13 +22,15 @@ namespace VemDeZap.Infra.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Name");
+                    b.Property<Guid?>("IdUsuario");
 
-                    b.Property<Guid?>("UserId");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(150);
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("IdUsuario");
 
                     b.ToTable("Campaign");
                 });
@@ -80,21 +82,21 @@ namespace VemDeZap.Infra.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<Guid?>("CampaignId");
+                    b.Property<Guid?>("IdCampaign");
 
-                    b.Property<Guid?>("ContactId");
+                    b.Property<Guid?>("IdContact");
 
-                    b.Property<Guid?>("GroupId");
+                    b.Property<Guid?>("IdGroup");
 
                     b.Property<bool>("Sent");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CampaignId");
+                    b.HasIndex("IdCampaign");
 
-                    b.HasIndex("ContactId");
+                    b.HasIndex("IdContact");
 
-                    b.HasIndex("GroupId");
+                    b.HasIndex("IdGroup");
 
                     b.ToTable("Send");
                 });
@@ -133,7 +135,7 @@ namespace VemDeZap.Infra.Migrations
                 {
                     b.HasOne("VemDeZap.Domain.Entities.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("IdUsuario");
                 });
 
             modelBuilder.Entity("VemDeZap.Domain.Entities.Contact", b =>
@@ -154,15 +156,15 @@ namespace VemDeZap.Infra.Migrations
                 {
                     b.HasOne("VemDeZap.Domain.Entities.Campaign", "Campaign")
                         .WithMany()
-                        .HasForeignKey("CampaignId");
+                        .HasForeignKey("IdCampaign");
 
                     b.HasOne("VemDeZap.Domain.Entities.Contact", "Contact")
                         .WithMany()
-                        .HasForeignKey("ContactId");
+                        .HasForeignKey("IdContact");
 
                     b.HasOne("VemDeZap.Domain.Entities.Group", "Group")
                         .WithMany()
-                        .HasForeignKey("GroupId");
+                        .HasForeignKey("IdGroup");
                 });
 #pragma warning restore 612, 618
         }

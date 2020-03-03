@@ -39,8 +39,8 @@ namespace VemDeZap.Infra.Repositories.Base
             modelBuilder.ApplyConfiguration(new MapUser());
             modelBuilder.ApplyConfiguration(new MapGroup());
             modelBuilder.ApplyConfiguration(new MapContact());
-            //modelBuilder.ApplyConfiguration(new MapCampanha());
-            //modelBuilder.ApplyConfiguration(new MapEnvio());
+            modelBuilder.ApplyConfiguration(new MapCampaign());
+            modelBuilder.ApplyConfiguration(new MapSend());
 
 
             base.OnModelCreating(modelBuilder);

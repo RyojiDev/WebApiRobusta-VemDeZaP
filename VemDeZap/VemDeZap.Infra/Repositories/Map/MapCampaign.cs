@@ -12,7 +12,7 @@ namespace VemDeZap.Infra.Repositories.Map
     {
         public void Configure(EntityTypeBuilder<Campaign> builder)
         {
-            builder.ToTable("Campanha");
+            builder.ToTable("Campaign");
 
             ////Propriedades
             builder.HasKey(x => x.Id);
