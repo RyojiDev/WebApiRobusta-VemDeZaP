@@ -5,6 +5,10 @@ namespace VemDeZap.Domain.Entities
 {
     public class Send : EntityBase
     {
+        protected Send()
+        {
+
+        }
         
         public Campaign Campaign { get; set; }
         public Group Group { get; set; }

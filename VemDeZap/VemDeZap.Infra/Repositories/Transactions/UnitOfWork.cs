@@ -5,7 +5,7 @@ using VemDeZap.Infra.Repositories.Base;
 
 namespace VemDeZap.Infra.Repositories.Transactions
 {
-    class UnitOfWork : IUnitOfWork
+   public class UnitOfWork : IUnitOfWork
     {
         private readonly VemDeZapContext _context;
 

@@ -5,6 +5,10 @@ namespace VemDeZap.Domain.Entities
 {
     public class Group : EntityBase
     {
+        protected Group()
+        {
+
+        }
         
         public User User { get; set; }
         public string Name { get; set; }

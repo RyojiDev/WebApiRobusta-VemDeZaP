@@ -7,6 +7,10 @@ namespace VemDeZap.Domain.Entities
 {
     public class Campaign : EntityBase
     {
+        protected Campaign()
+        {
+
+        }
         
 
         public string Name { get; set; }
