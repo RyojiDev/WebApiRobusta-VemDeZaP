@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj": {}
+    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj": {
+    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj",
         "projectName": "VemDeZap.Api",
-        "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj",
-        "packagesPath": "C:\\Users\\ryoji.kitano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\obj\\",
+        "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\VemDeZap.Api.csproj",
+        "packagesPath": "C:\\Users\\Iesu Sama Aishiteiru\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryoji.kitano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Iesu Sama Aishiteiru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
-                "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj"
+              "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj"
               },
-              "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj": {
-                "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj"
+              "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj": {
+                "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj"
               }
             }
           }
@@ -101,17 +104,20 @@
         }
       }
     },
-    "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
+    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
         "projectName": "VemDeZap.Domain",
-        "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
-        "packagesPath": "C:\\Users\\ryoji.kitano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\obj\\",
+        "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj",
+        "packagesPath": "C:\\Users\\Iesu Sama Aishiteiru\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryoji.kitano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Iesu Sama Aishiteiru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,17 +170,20 @@
         }
       }
     },
-    "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj": {
+    "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj",
         "projectName": "VemDeZap.Infra",
-        "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj",
-        "packagesPath": "C:\\Users\\ryoji.kitano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\obj\\",
+        "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\VemDeZap.Infra.csproj",
+        "packagesPath": "C:\\Users\\Iesu Sama Aishiteiru\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryoji.kitano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Iesu Sama Aishiteiru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -187,8 +196,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
-                "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\API\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj"
+              "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\C#\\Projetos\\API\\vemdezap\\WebApiRobusta-VemDeZaP\\VemDeZap\\VemDeZap.Domain\\VemDeZap.Domain.csproj"
               }
             }
           }

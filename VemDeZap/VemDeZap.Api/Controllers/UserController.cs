@@ -9,7 +9,9 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading;
 using System.Threading.Tasks;
+using VemDeZap.Api.Security;
 using VemDeZap.Domain.Commands.User.AddUser;
+using VemDeZap.Domain.Commands.User.AutenticarUsuario;
 using VemDeZap.Infra.Repositories.Transactions;
 
 namespace VemDeZap.Api.Controllers
@@ -41,7 +43,7 @@ namespace VemDeZap.Api.Controllers
 
         public async Task<IActionResult> Autenticar(
             [FromBody]AutenticarUsuarioRequest request,
-            [FromServices]SigningConfigurations signingConfigurations,
+            [FromServices]SigningConfiguration signingConfigurations,
             [FromServices]TokenConfigurations tokenConfigurations
             )
         {
