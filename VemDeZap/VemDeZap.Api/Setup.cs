@@ -24,7 +24,7 @@ namespace VemDeZap.Api
         public static void ConfigureAuthentication(this IServiceCollection services)
         {
             // Configuração do token
-            var signingConfigurations = new SigningConfiguration();
+            var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
 
             var tokenConfigurations = new TokenConfigurations()

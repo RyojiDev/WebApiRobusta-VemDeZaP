@@ -16,64 +16,77 @@ using VemDeZap.Infra.Repositories.Transactions;
 
 namespace VemDeZap.Api.Controllers
 {
-    public class UserController : Base.ControllerBase
+    //[Route("api/[controller]")]
+    //[Route("api/Usuario")]
+    //[ApiController]
+    public class UsuarioController : Base.ControllerBase
     {
-
         private readonly IMediator _mediator;
 
-        public UserController(IMediator mediator,IUnitOfWork unitOfWork) : base(unitOfWork)
+        public UsuarioController(IMediator mediator, IUnitOfWork unitOfWork) : base(unitOfWork)
         {
             _mediator = mediator;
         }
 
         [AllowAnonymous]
         [HttpPost]
-        [Route("Adicionar")]
+        [Route("api/Usuario/Adicionar")]
         public async Task<IActionResult> Adicionar([FromBody]RequestAddUser request)
         {
             try
             {
                 var response = await _mediator.Send(request, CancellationToken.None);
                 return await ResponseAsync(response);
-            }catch(System.Exception ex)
+            }
+            catch (System.Exception ex)
             {
+
                 return BadRequest(ex.Message);
             }
+
+
+
         }
 
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("api/Usuario/Autenticar")]
         public async Task<IActionResult> Autenticar(
-            [FromBody]AutenticarUsuarioRequest request,
-            [FromServices]SigningConfiguration signingConfigurations,
-            [FromServices]TokenConfigurations tokenConfigurations
-            )
+           [FromBody]AutenticarUsuarioResquest request,
+           [FromServices]SigningConfigurations signingConfigurations,
+           [FromServices]TokenConfigurations tokenConfigurations)
         {
+
             try
             {
                 var autenticarUsuarioResponse = await _mediator.Send(request, CancellationToken.None);
 
-                if(autenticarUsuarioResponse.Autenticado == true)
+                if (autenticarUsuarioResponse.Autenticado == true)
                 {
                     var response = GerarToken(autenticarUsuarioResponse, signingConfigurations, tokenConfigurations);
+
                     return Ok(response);
                 }
+
                 return Ok(autenticarUsuarioResponse);
 
-            }catch(System.Exception ex)
+            }
+            catch (System.Exception ex)
             {
+
                 return NotFound(ex.Message);
             }
         }
 
         private object GerarToken(AutenticarUsuarioResponse response, SigningConfigurations signingConfigurations, TokenConfigurations tokenConfigurations)
         {
-            if(response.Autenticado == true)
+            if (response.Autenticado == true)
             {
                 ClaimsIdentity identity = new ClaimsIdentity(
                     new GenericIdentity(response.Id.ToString(), "Id"),
-                    new[]
-                    {
-                        new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString("N")),
-                        //new Claim(JwtRegisteredClaimNames.UniqueName, response.User)
+                    new[] {
+                        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
+                        //new Claim(JwtRegisteredClaimNames.UniqueName, response.Usuario)
                         new Claim("Usuario", JsonConvert.SerializeObject(response))
                     }
                 );
@@ -91,17 +104,16 @@ namespace VemDeZap.Api.Controllers
                     NotBefore = dataCriacao,
                     Expires = dataExpiracao
                 });
-
                 var token = handler.WriteToken(securityToken);
 
                 return new
                 {
                     authenticated = true,
                     created = dataCriacao.ToString("yyyy-MM-dd HH:mm:ss"),
-                    Expiration = dataExpiracao.ToString("yyyy-MM-dd HH:mm:ss"),
+                    expiration = dataExpiracao.ToString("yyyy-MM-dd HH:mm:ss"),
                     accessToken = token,
                     message = "OK",
-                    PrimeiroNome = response.Nome
+                    PrimeiroNome = response.Name
                 };
             }
             else
@@ -109,5 +121,6 @@ namespace VemDeZap.Api.Controllers
                 return response;
             }
         }
+
     }
 }

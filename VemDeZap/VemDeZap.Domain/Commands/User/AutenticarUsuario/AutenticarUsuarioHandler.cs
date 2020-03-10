@@ -11,7 +11,7 @@ using VemDeZap.Domain.interfaces.Repositories;
 
 namespace VemDeZap.Domain.Commands.User.AutenticarUsuario
 {
-    public class AutenticarUsuarioHandler : Notifiable, IRequestHandler<AutenticarUsuarioRequest, AutenticarUsuarioResponse>
+    public class AutenticarUsuarioHandler : Notifiable, IRequestHandler<AutenticarUsuarioResquest, AutenticarUsuarioResponse>
     {
         private readonly IMediator _mediator;
         private readonly IRepositoryUser _repositoryUser;
@@ -22,7 +22,7 @@ namespace VemDeZap.Domain.Commands.User.AutenticarUsuario
             _repositoryUser = repositoryUser;
         }
 
-        public async Task<AutenticarUsuarioResponse> Handle(AutenticarUsuarioRequest request, CancellationToken cancellationToken)
+        public async Task<AutenticarUsuarioResponse> Handle(AutenticarUsuarioResquest request, CancellationToken cancellationToken)
         {
             //Valida se o objeto request esta nulo
             if(request == null)
