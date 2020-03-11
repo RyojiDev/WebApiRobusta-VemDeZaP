@@ -11,3 +11,16 @@ D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.In
 D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.pdb
 D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.runtimeconfig.json
 D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.runtimeconfig.dev.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.deps.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.runtimeconfig.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.runtimeconfig.dev.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Infra.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Domain.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\bin\Debug\netcoreapp2.2\VemDeZap.Domain.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.csprojAssemblyReference.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.AssemblyInfoInputs.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.AssemblyInfo.cs
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.csproj.CopyComplete
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\API\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Infra\obj\Debug\netcoreapp2.2\VemDeZap.Infra.pdb
