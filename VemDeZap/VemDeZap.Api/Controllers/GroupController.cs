@@ -21,9 +21,9 @@ using VemDeZap.Domain.Commands.Group.AlterGroup;
 
 namespace VemDeZap.Api.Controllers
 {
-    //[Route("api/[controller]")]
-    //[Route("api/Usuario")]
-    //[ApiController]
+    /*[Route("api/[controller]")]
+    [Route("api/Usuario")]
+    [ApiController]*/
     public class GroupController : Base.ControllerBase
     {
         private readonly IMediator _mediator;

@@ -16,9 +16,9 @@ using VemDeZap.Infra.Repositories.Transactions;
 
 namespace VemDeZap.Api.Controllers
 {
-    //[Route("api/[controller]")]
-    //[Route("api/Usuario")]
-    //[ApiController]
+    /*[Route("api/[controller]")]
+    [Route("api/Usuario")]
+    [ApiController]*/
     public class UsuarioController : Base.ControllerBase
     {
         private readonly IMediator _mediator;

@@ -1,5 +1,11 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace VemDeZap.Api
@@ -26,7 +32,7 @@ namespace VemDeZap.Api
                 app.UseDeveloperExceptionPage();
             }
 
-            //Permitindo requisições usando Header,Methods e Origen ( qualquer Site)
+            //Permitindo requisiçõs usando Header, Methods e Origen (Qualquer site)
             app.UseCors(x => {
                 x.AllowAnyHeader();
                 x.AllowAnyMethod();
@@ -36,11 +42,9 @@ namespace VemDeZap.Api
             //Configura para usarmos o MVC
             app.UseMvc();
 
-            //Cria a documentação da api de forma automatica
-            
+            //Cria a documentação da Api de forma automatica
             app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
+            app.UseSwaggerUI(c => {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "VemDeZap - V1");
             });
         }
