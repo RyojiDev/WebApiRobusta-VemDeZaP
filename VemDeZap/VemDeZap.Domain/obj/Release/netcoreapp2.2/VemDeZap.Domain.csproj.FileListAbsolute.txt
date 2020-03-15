@@ -1,0 +1,9 @@
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\bin\Release\netcoreapp2.2\VemDeZap.Domain.deps.json
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\bin\Release\netcoreapp2.2\VemDeZap.Domain.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\bin\Release\netcoreapp2.2\VemDeZap.Domain.pdb
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Release\netcoreapp2.2\VemDeZap.Domain.Resources.MSG.resources
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Release\netcoreapp2.2\VemDeZap.Domain.csproj.GenerateResource.cache
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Release\netcoreapp2.2\VemDeZap.Domain.AssemblyInfoInputs.cache
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Release\netcoreapp2.2\VemDeZap.Domain.AssemblyInfo.cs
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Release\netcoreapp2.2\VemDeZap.Domain.dll
+D:\Projetos\C#\Projetos\API\vemdezap\WebApiRobusta-VemDeZaP\VemDeZap\VemDeZap.Domain\obj\Release\netcoreapp2.2\VemDeZap.Domain.pdb

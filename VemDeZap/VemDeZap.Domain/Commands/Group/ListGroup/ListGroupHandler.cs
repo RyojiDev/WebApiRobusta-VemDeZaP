@@ -1,12 +1,11 @@
 ﻿using MediatR;
 using prmToolkit.NotificationPattern;
-using System;
-using System.Collections.Generic;
+using prmToolkit.NotificationPattern.Extensions;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using VemDeZap.Domain.interfaces.Repositories;
+using VemDeZap.Domain.Resources;
 
 namespace VemDeZap.Domain.Commands.Group.ListGroup
 {
@@ -21,13 +20,13 @@ namespace VemDeZap.Domain.Commands.Group.ListGroup
             _repositoryGroup = repositoryGrupo;
         }
 
-        public async Task<Response> Handler(ListGroupRequest request, CancellationToken cancelationToken)
+        public async Task<Response> Handle(ListGroupRequest request, CancellationToken cancelationToken)
         {
             // Valida se o objeto request esta nulo
 
             if(request == null)
             {
-                AddNotification("Request", MSG.IBJETO_X0_E_OBRIGATORIO.ToFormar("Request"));
+                AddNotification("Request", MSG.OBJETO_X0_E_OBRIGATORIO.ToFormat("Request"));
                 return new Response(this);
             }
 

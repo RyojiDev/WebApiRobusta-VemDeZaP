@@ -8,12 +8,11 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Reflection;
 using VemDeZap.Api.Security;
-using VemDeZap.Infra.Repositories;
-
 using VemDeZap.Domain.Commands.User.AddUser;
 using VemDeZap.Domain.interfaces.Repositories;
-using VemDeZap.Infra.Repositories.Transactions;
+using VemDeZap.Infra.Repositories;
 using VemDeZap.Infra.Repositories.Base;
+using VemDeZap.Infra.Repositories.Transactions;
 
 namespace VemDeZap.Api
 {
@@ -23,11 +22,11 @@ namespace VemDeZap.Api
         private const string AUDIENCE = "c6bbbb645024";
         public static void ConfigureAuthentication(this IServiceCollection services)
         {
-            // Configuração do token
+            //Configuração do Token
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
 
-            var tokenConfigurations = new TokenConfigurations()
+            var tokenConfigurations = new TokenConfigurations
             {
                 Audience = AUDIENCE,
                 Issuer = ISSUER,
@@ -35,6 +34,7 @@ namespace VemDeZap.Api
 
             };
             services.AddSingleton(tokenConfigurations);
+
 
             services.AddAuthentication(authOptions =>
             {
@@ -47,33 +47,28 @@ namespace VemDeZap.Api
                 paramsValidation.ValidAudience = tokenConfigurations.Audience;
                 paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
 
-                // valida a assinatura de um token recebido
-
+                // Valida a assinatura de um token recebido
                 paramsValidation.ValidateIssuerSigningKey = true;
 
-                // verifica se um token recebido ainda é valido
-
+                // Verifica se um token recebido ainda é válido
                 paramsValidation.ValidateLifetime = true;
 
                 // Tempo de tolerância para a expiração de um token (utilizado
                 // caso haja problemas de sincronismo de horário entre diferentes
                 // computadores envolvidos no processo de comunicação)
-
                 paramsValidation.ClockSkew = TimeSpan.Zero;
-
             });
 
             // Ativa o uso do token como forma de autorizar o acesso
             // a recursos deste projeto
-
             services.AddAuthorization(auth =>
             {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
-                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme‌​)
                     .RequireAuthenticatedUser().Build());
             });
 
-            //Para todas as requisições serem necessaria o token, para um endpoint não existir o token
+            //Para todas as requisições serem necessaria o token, para um endpoint não exisgir o token
             //deve colocar o [AllowAnonymous]
             //Caso remova essa linha, para todas as requisições que precisar de token, deve colocar
             //o atributo [Authorize("Bearer")]
@@ -101,7 +96,6 @@ namespace VemDeZap.Api
 
             services.AddCors();
 
-
         }
 
         public static void ConfigureMediatR(this IServiceCollection services)
@@ -111,19 +105,17 @@ namespace VemDeZap.Api
 
             services.AddMediatR(typeof(Startup).GetTypeInfo().Assembly, typeof(RequestAddUser).GetTypeInfo().Assembly);
 
+
         }
 
-        
         public static void ConfigureRepositories(this IServiceCollection services)
         {
             services.AddScoped<VemDeZapContext, VemDeZapContext>();
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 
-
             services.AddTransient<IRepositoryUser, RepositoryUser>();
-            //services.AddTransient<IRepositoryGrupo, RespositoryGrupo>();
-
+            services.AddTransient<IRepositoryGroup, RepositoryGroup>();
         }
 
         public static void ConfigureSwagger(this IServiceCollection services)
@@ -143,9 +135,7 @@ namespace VemDeZap.Api
                 //    .Build();
                 //options.Filters.Add(new AuthorizeFilter(policy));
             })
-            .SetCompatibilityVersion(CompatibilityVersion.Version_2_0);
+            .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
-
-
     }
 }
