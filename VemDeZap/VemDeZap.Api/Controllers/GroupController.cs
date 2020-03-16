@@ -53,9 +53,7 @@ namespace VemDeZap.Api.Controllers
             }
         }
 
-        [Authorize]
-        [HttpPost]
-        [Route("api/Grupo/Adicionar")]
+        
 
         [Authorize]
         [HttpPost]
