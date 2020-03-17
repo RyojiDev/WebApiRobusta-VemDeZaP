@@ -43,7 +43,7 @@ namespace VemDeZap.Api.Controllers
         {
             try
             {
-                var request = new AlterGroupRequest();
+                var request = new ListGroupRequest();
                 var result = await _mediator.Send(request, CancellationToken.None);
                 return Ok(result);
             }

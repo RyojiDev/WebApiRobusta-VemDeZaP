@@ -11,17 +11,17 @@ namespace VemDeZap.Domain.Entities
         {
 
         }
-        public User(string firstName, string email, string password, string lastName)
+        public User(string firstName,string email, string lastName, string password)
         {
             FirstName = firstName;
-            Email = email;
             Password = password;
+            Email = email;
             LastName = lastName;
 
             new AddNotifications<User>(this)
                 .IfNullOrInvalidLength(x => x.FirstName, 3, 150, "O Primeiro nome deve conter entre 3 a 150 caracteres")
                 .IfNullOrInvalidLength(x => x.LastName, 3, 150)
-                .IfNotEmail(x => x.Email, "O Email deve ser preenchido")
+                .IfNotEmail(x => x.Email)
                 .IfNullOrInvalidLength(x => x.Password, 3, 32);
 
             if (!string.IsNullOrEmpty(this.Password))

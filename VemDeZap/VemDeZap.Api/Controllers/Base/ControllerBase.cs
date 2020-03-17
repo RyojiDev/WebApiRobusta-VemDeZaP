@@ -26,7 +26,8 @@ namespace VemDeZap.Api.Controllers.Base
                     _unitofWork.SaveChanges();
 
                     return Ok(response);
-                }catch(Exception ex)
+                }
+                catch (Exception ex)
                 {
                     //aqui devo logar o erro
                     return BadRequest($"Houve um problema interno com o servidor. Entre em contato com o Administrador do sistema em contato com o Administrador do sistema caso o problema persista. Erro interno:{ex.Message}");
@@ -58,3 +59,4 @@ namespace VemDeZap.Api.Controllers.Base
         }
     }
 }
+
